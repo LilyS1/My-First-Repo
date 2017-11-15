@@ -1,3 +1,5 @@
+import time
+
 print("Write an adjective")
 adjective1 = input()
 
@@ -70,5 +72,4 @@ print("No Christmas season can really " + adjective1 + " unless you have a/an "
       + somethingalive1 + " in your front room for weeks."
       " Remeber, poems and Mad Libs are made by fools like "
       + personintheroom1 + ", but only" + celebrity1 + " can make a tree.")
-
-      
+time.sleep (500)
